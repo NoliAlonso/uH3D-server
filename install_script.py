@@ -33,6 +33,6 @@ def install():
     args = ["sudo"] + ["make"] + ["install"]
     check_status(subprocess.run(args, cwd='./focus-stack/'))
     
-if __name__ = "__main__":
+if __name__ == "__main__":
     install()
     
